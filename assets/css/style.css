@@ -11,6 +11,7 @@ html{
 
 header{
    background-color: #FF6900;
+   z-index: 1;
 }
 
 .centering{
@@ -24,6 +25,10 @@ header{
    color: white;
    margin: 0 5px;
    font-size: 1.1rem;
+}
+
+.gender a:hover{
+   text-decoration: underline;
 }
 
 .flex-nav{
@@ -55,7 +60,6 @@ header{
    position: fixed;
    width: 100%;
    top: 0;
-
 }
 
 .card{
@@ -102,7 +106,7 @@ header{
 
 .wishlist{
    position: absolute;
-   top: 15px;
+   top: 10px;
    right: 15px;
    font-size: 1.7rem;
 }
@@ -135,7 +139,7 @@ header{
 .b-wishlist{
    display: none;
    position: absolute;
-   top: 15px;
+   top: 10px;
    right: 15px;
    font-weight: 700;
    font-size: 1.7rem;
