@@ -1,0 +1,46 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html{
+   font-family: sans-serif;
+}
+
+header{
+   background-color: #FF6900;
+}
+
+.centering{
+   width: 80%;
+   margin: auto;
+   padding: 15px 0;
+}
+
+.gender a{
+   text-decoration: none;
+   color: white;
+   margin: 0 5px;
+   font-size: 1.1rem;
+}
+
+.flex-nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+img{
+   width: 10%;
+}
+
+.icon-nav{
+   color: white;
+}
+
+.icon{
+   margin: 0 15px;
+   font-size: 1.2rem;
+}
